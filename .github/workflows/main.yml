@@ -11,5 +11,5 @@ jobs:
           node-version: '14'
       - run: npm install -g surge
       - name: Run Surge
-        run: surge ./ soft-gun.surge.sh --token ${{secrets.BOOTCAMP_ADVANCED}} 
+        run: surge ./ soft-gun.surge.sh --token ${{secrets.BOOT_ADVANCE}} 
  
